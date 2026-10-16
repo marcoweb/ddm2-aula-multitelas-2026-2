@@ -37,6 +37,19 @@ export const styles = StyleSheet.create({
         fontWeight: '700'
     },
     secondaryButton: {
-
+        minHeight: 48,
+        marginTop: 12,
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderWidth: 1,
+        borderColor: '#d0d5dd',
+        borderRadius: 12,
+        backgroundColor: '#fff',
+        paddingHorizontal: 18
+    },
+    secondaryButtonText: {
+        color: '#344054',
+        fontSize: 15,
+        fontWeight: '700'
     }
 });
