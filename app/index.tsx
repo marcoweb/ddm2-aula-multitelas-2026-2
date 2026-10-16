@@ -2,11 +2,13 @@ import { Text, View, Pressable, FlatList } from "react-native";
 import { Link } from "expo-router";
 import { useTarefas } from "../src/contexts/TarefasContext";
 
+import { styles as commons } from "../src/styles/common";
+
 export default function ListaScreen() {
     const { tarefas, carregando, erro } = useTarefas();
 
     return (
-        <View>
+        <View style={commons.container}>
             <Text>Lista de Tarefas</Text>
             <Link href="/nova" asChild>
                 <Pressable>
