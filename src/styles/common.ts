@@ -23,5 +23,20 @@ export const styles = StyleSheet.create({
         color: '#172033',
         fontSize: 16
     },
-    primaryButton: {}
+    primaryButton: {
+        minHeight: 52,
+        marginTop: 16,
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderRadius: 12,
+        backgroundColor: '#5b6bd6'
+    },
+    primaryColorText: {
+        color: '#fff',
+        fontSize: 16,
+        fontWeight: '700'
+    },
+    secondaryButton: {
+
+    }
 });
