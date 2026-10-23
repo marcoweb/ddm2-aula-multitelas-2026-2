@@ -51,5 +51,19 @@ export const styles = StyleSheet.create({
         color: '#344054',
         fontSize: 15,
         fontWeight: '700'
+    },
+    dangerButton : {
+        minHeight: 48,
+        marginTop: 12,
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderRadius: 12,
+        backgroundColor: '#d92d20',
+        paddingHorizontal: 18
+    },
+    message: {
+        marginTop: 18,
+        color: '#b42318',
+        fontSize: 14
     }
 });

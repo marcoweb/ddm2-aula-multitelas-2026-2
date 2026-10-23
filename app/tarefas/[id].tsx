@@ -53,8 +53,8 @@ export default function DetalhesTarefaScreen() {
                 </Text>
             </Pressable>
 
-            <Pressable onPress={remover} style={comuns.secondaryButton}>
-                <Text style={comuns.secondaryButtonText}>Remover Tarefa</Text>
+            <Pressable onPress={remover} style={comuns.dangerButton}>
+                <Text style={comuns.primaryColorText}>Remover Tarefa</Text>
             </Pressable>
         </View>
     );
