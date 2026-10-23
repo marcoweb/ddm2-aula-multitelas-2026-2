@@ -10,6 +10,8 @@ export default function RootLayout() {
             <Stack>
                 <Stack.Screen name="index" options={{title: "Lista"}} />
                 <Stack.Screen name="nova" options={{title: "Nova Tarefa"}} />
+                <Stack.Screen name="tarefas/[id]"
+                    options={{title: "Detalhes da Tarefa"}}  />
             </Stack>
             <StatusBar style="auto" />
         </TarefasProvider>
