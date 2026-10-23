@@ -64,7 +64,7 @@ export function TarefasProvider({ children } : PropsWithChildren) {
     setTarefas((tarefasAtuais) => [
         ...tarefasAtuais,
         {
-            id: Date.now.toString(),
+            id: Date.now().toString(),
             titulo: tituloLimpo,
             concluida: false
         }
