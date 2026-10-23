@@ -28,9 +28,13 @@ export default function ListaScreen() {
                     <Text>Nenhuma Tarefa Encontrada</Text>
                 }
                 renderItem={({item}) => (
-                    <View>
-                        <Text style={styles.itemTitle}>{item.titulo}</Text>
-                    </View>
+                    <Link href={{pathname: '/tarefas/[id]', params: {id : item.id}}} asChild>
+                        <Pressable>
+                            <View>
+                                <Text style={styles.itemTitle}>{item.titulo}</Text>
+                            </View>
+                        </Pressable>
+                    </Link>
                 )}
             />
         </View>
